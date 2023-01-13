@@ -1,0 +1,286 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+
+body img{
+
+    border-radius: 10px;
+
+
+}
+
+
+.head ul{
+    margin-top: 0;
+    
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 25px;
+    position: sticky;
+    color: darkblue;
+    
+    
+   
+
+}
+
+
+
+    .head ul  :hover{
+
+        color: tomato;
+        transform: scale(1.0);
+        transition: 0.4s;
+        
+    }
+.head{
+    background-image: url(images/double-ham.jpg);
+    height: 100vh;
+    width:auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   opacity: 0.8;
+
+    
+}
+
+.intro{
+    width: 30%;
+    height: auto;
+    font-size: 20px;
+    padding: 20px;
+    color: black;
+    opacity: 1.0;
+    font-family: sans-serif;
+    font-style: oblique;
+    margin-top: 180px;
+    margin-left: 10%;
+    border-bottom: 1px solid black;
+    word-spacing: 5px;
+}
+.more{
+    font-size: 40px;
+    margin-left: 37%;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    padding:5px 50px 5px 50px;
+    
+}
+.more:hover{
+    background-color: aliceblue;
+    transform: scale(1.05);
+    transition: 0.2s;
+
+}
+
+.salad h1{
+    font-style: italic;
+    font-family: cursive;
+    margin: 50px;
+    padding: 20px;
+    margin-top: 10px;
+
+}
+
+
+.img-sal{
+    width: 320px;
+    height: 320px;
+    box-shadow: 12px solid black;
+}
+
+
+
+
+.salad {
+    
+    display: grid;
+   grid-template-columns:  325px 325px 325px;
+   grid: template rows  325px 325px 325px  ;
+   row-gap: 10px;
+   column-gap: 5px;
+   margin-right: 20px;
+   margin-top: 30px;
+   margin-bottom: 20px;
+}
+
+.vert{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    height: auto;
+}
+.item1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 0.2px solid rgb(179, 166, 166);
+   
+
+}
+.item1 h1{
+    font-size: 100px;
+    font-family:cursive;
+    margin-top: 150px;
+    margin-left: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.salad img:hover{
+    transform: scale(1.04);
+    transition: 0.2s;
+
+}
+
+
+.burger {
+    
+    display: grid;
+   grid-template-columns:  325px 325px 325px;
+   grid: template rows  325px 325px 325px  ;
+   row-gap: 10px;
+   column-gap: 5px;
+   margin-right: 20px;
+   margin-top: 30px;
+   margin-bottom: 20px;
+}
+
+.item2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+        border-bottom: .2px solid rgb(179, 166, 166);
+        
+    }
+
+    .item2 h1{
+        font-size: 100px;
+        font-family:cursive;
+        margin-top: 150px;
+        margin-left: 20px;
+        font-style: italic;
+        font-weight: 500;
+        text-shadow: 5px solid grey;
+    }
+
+    .burger img:hover{
+        transform: scale(1.04);
+        transition: 0.2s;
+    
+    }
+
+
+    
+.item3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+        border-bottom: .2px solid rgb(179, 166, 166);
+        
+        
+
+    }
+
+    .item3 h1{
+        font-size: 100px;
+        font-family:cursive;
+        margin-top: 150px;
+        margin-left: 20px;
+        font-style: italic;
+        font-weight: 500;
+        text-shadow: 5px solid grey;
+        padding: 100px;
+        
+    }
+
+    .Drinks img:hover{
+        transform: scale(1.04);
+        transition: 0.2s;
+    
+    }
+
+.Drinks{
+
+    display: grid;
+   grid-template-columns:  325px 325px 325px;
+   grid-template-rows:   325px 325px  ;
+   row-gap: 10px;
+   column-gap: 5px;
+   margin-right: 20px;
+   margin-top: 30px;
+   margin-bottom: 20px;
+
+
+    }
+
+  .horz{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    width: auto;
+
+
+  }
+  .vertical{
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+.footer{
+    background-image: url(images/alter-back.jpg);
+    width: auto;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+.footer ul{
+    
+    list-style: none;
+    font-size:30px ;
+    display: flex;
+    flex-direction: column;
+    /* line-height: 10px; */
+    align-items:center ;
+    
+    
+}
+
+.footer ul li{
+    margin: 12px;
+    
+}
+
+ .gap a{
+    text-decoration: none;
+} 
+
+#home .intro .more{
+    opacity: 1.0;
+
+}
+
+#home a{
+    text-decoration: none;
+    
+}
+
+.footer a:hover{
+
+    color: tomato;
+    transition: 0.2s;
+
+}
+
+.footer a{
+    color: darkblue;
+}
